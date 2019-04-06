@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NavigationControllerViewController.swift
 //  Star Wars Cellebration App
 //
 //  Created by Rodrigo Giglio on 05/04/19.
@@ -8,13 +8,14 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        // View setups
+        self.navigationBar.barTintColor = AppColors.navbar.get()
+        
     }
 
-
 }
-

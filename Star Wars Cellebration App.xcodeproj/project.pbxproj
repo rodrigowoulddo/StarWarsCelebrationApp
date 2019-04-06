@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		75D69E282257CAF700A1921B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E272257CAF700A1921B /* AppDelegate.swift */; };
-		75D69E2A2257CAF700A1921B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E292257CAF700A1921B /* ViewController.swift */; };
 		75D69E2D2257CAF700A1921B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D69E2B2257CAF700A1921B /* Main.storyboard */; };
 		75D69E2F2257CAF800A1921B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D69E2E2257CAF800A1921B /* Assets.xcassets */; };
 		75D69E322257CAF800A1921B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D69E302257CAF800A1921B /* LaunchScreen.storyboard */; };
 		75D69E3D2257CAF800A1921B /* Star_Wars_Cellebration_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E3C2257CAF800A1921B /* Star_Wars_Cellebration_AppTests.swift */; };
 		75D69E482257CAF800A1921B /* Star_Wars_Cellebration_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E472257CAF800A1921B /* Star_Wars_Cellebration_AppUITests.swift */; };
+		75D69E582257D37900A1921B /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E572257D37900A1921B /* AppColors.swift */; };
+		75D69E5E2257D77800A1921B /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E5D2257D77800A1921B /* NavigationController.swift */; };
+		75D69E622257E00500A1921B /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E612257E00500A1921B /* UIViewController.swift */; };
+		75D69E652257E6EA00A1921B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E642257E6EA00A1921B /* MainViewController.swift */; };
+		75D69E672257E73F00A1921B /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E662257E73F00A1921B /* EventViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		75D69E242257CAF700A1921B /* Star Wars Cellebration App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Cellebration App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D69E272257CAF700A1921B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75D69E292257CAF700A1921B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75D69E2C2257CAF700A1921B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75D69E2E2257CAF800A1921B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D69E312257CAF800A1921B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,11 @@
 		75D69E432257CAF800A1921B /* Star Wars Cellebration AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Star Wars Cellebration AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D69E472257CAF800A1921B /* Star_Wars_Cellebration_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star_Wars_Cellebration_AppUITests.swift; sourceTree = "<group>"; };
 		75D69E492257CAF800A1921B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D69E572257D37900A1921B /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		75D69E5D2257D77800A1921B /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		75D69E612257E00500A1921B /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		75D69E642257E6EA00A1921B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		75D69E662257E73F00A1921B /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,13 @@
 		75D69E262257CAF700A1921B /* Star Wars Cellebration App */ = {
 			isa = PBXGroup;
 			children = (
-				75D69E272257CAF700A1921B /* AppDelegate.swift */,
-				75D69E292257CAF700A1921B /* ViewController.swift */,
+				75D69E602257DFF600A1921B /* Extensions */,
+				75D69E5F2257D7A800A1921B /* Controller */,
+				75D69E592257D61500A1921B /* View */,
+				75D69E5A2257D68600A1921B /* Support */,
 				75D69E2B2257CAF700A1921B /* Main.storyboard */,
 				75D69E2E2257CAF800A1921B /* Assets.xcassets */,
 				75D69E302257CAF800A1921B /* LaunchScreen.storyboard */,
-				75D69E332257CAF800A1921B /* Info.plist */,
 			);
 			path = "Star Wars Cellebration App";
 			sourceTree = "<group>";
@@ -123,6 +132,41 @@
 				75D69E492257CAF800A1921B /* Info.plist */,
 			);
 			path = "Star Wars Cellebration AppUITests";
+			sourceTree = "<group>";
+		};
+		75D69E592257D61500A1921B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75D69E572257D37900A1921B /* AppColors.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75D69E5A2257D68600A1921B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				75D69E272257CAF700A1921B /* AppDelegate.swift */,
+				75D69E332257CAF800A1921B /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		75D69E5F2257D7A800A1921B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75D69E5D2257D77800A1921B /* NavigationController.swift */,
+				75D69E642257E6EA00A1921B /* MainViewController.swift */,
+				75D69E662257E73F00A1921B /* EventViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75D69E602257DFF600A1921B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75D69E612257E00500A1921B /* UIViewController.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +300,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D69E2A2257CAF700A1921B /* ViewController.swift in Sources */,
+				75D69E582257D37900A1921B /* AppColors.swift in Sources */,
+				75D69E5E2257D77800A1921B /* NavigationController.swift in Sources */,
 				75D69E282257CAF700A1921B /* AppDelegate.swift in Sources */,
+				75D69E622257E00500A1921B /* UIViewController.swift in Sources */,
+				75D69E652257E6EA00A1921B /* MainViewController.swift in Sources */,
+				75D69E672257E73F00A1921B /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X93R6BN6;
-				INFOPLIST_FILE = "Star Wars Cellebration App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Star Wars Cellebration App/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,7 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66X93R6BN6;
-				INFOPLIST_FILE = "Star Wars Cellebration App/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Star Wars Cellebration App/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
