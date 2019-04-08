@@ -14,6 +14,7 @@
 		466D5EC12259170F00FACC37 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D5EC02259170F00FACC37 /* Activity.swift */; };
 		46D1E41F22591AF8005BD1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1E41B22591AF8005BD1E2 /* Main.storyboard */; };
 		46D1E42022591AF8005BD1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1E41D22591AF8005BD1E2 /* LaunchScreen.storyboard */; };
+		75A53BEC225BD62E00EEF80C /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A53BEB225BD62E00EEF80C /* TableViewCells.swift */; };
 		75D69E282257CAF700A1921B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E272257CAF700A1921B /* AppDelegate.swift */; };
 		75D69E2F2257CAF800A1921B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D69E2E2257CAF800A1921B /* Assets.xcassets */; };
 		75D69E3D2257CAF800A1921B /* Star_Wars_Cellebration_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E3C2257CAF800A1921B /* Star_Wars_Cellebration_AppTests.swift */; };
@@ -49,6 +50,7 @@
 		466D5EC02259170F00FACC37 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		46D1E41C22591AF8005BD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		46D1E41E22591AF8005BD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75A53BEB225BD62E00EEF80C /* TableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
 		75D69E242257CAF700A1921B /* Star Wars Cellebration App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Cellebration App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D69E272257CAF700A1921B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75D69E2E2257CAF800A1921B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -185,6 +187,7 @@
 				75D69E5D2257D77800A1921B /* NavigationController.swift */,
 				75D69E642257E6EA00A1921B /* MainViewController.swift */,
 				75D69E662257E73F00A1921B /* EventViewController.swift */,
+				75A53BEB225BD62E00EEF80C /* TableViewCells.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A53BEC225BD62E00EEF80C /* TableViewCells.swift in Sources */,
 				466D5EC12259170F00FACC37 /* Activity.swift in Sources */,
 				466D5EBB2259158500FACC37 /* Day.swift in Sources */,
 				466D5EB922590F1C00FACC37 /* ViewController.swift in Sources */,
