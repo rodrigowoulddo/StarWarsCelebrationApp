@@ -12,19 +12,24 @@ import UIKit
 enum AppColors{
     
     case navbar
-    case friday
-    case saturday
-    case sunday
+    case fridayColor
+    case saturdayColor
+    case sundayColor
+    case yellowApp
     
     func get() -> UIColor {
         
         switch self {
-            
             case .navbar:
                 return makeColor(rgbAndAlpha: [26, 26, 26, 1])
-            default:
-                return UIColor.black
-            
+            case .fridayColor:
+                return makeColor(rgbAndAlpha: [79,188,182,1])
+            case .saturdayColor:
+                return makeColor(rgbAndAlpha: [229, 174, 9, 1])
+            case .sundayColor:
+                return makeColor(rgbAndAlpha: [210, 27, 8, 1])
+            case .yellowApp:
+                return makeColor(rgbAndAlpha: [255, 233, 0, 1])
         }
         
     }
