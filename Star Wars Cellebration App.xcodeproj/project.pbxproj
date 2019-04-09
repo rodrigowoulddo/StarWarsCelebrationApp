@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462C45DD225D15FA00CDBCBD /* LiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462C45DC225D15FA00CDBCBD /* LiveTableViewController.swift */; };
 		466D5EB922590F1C00FACC37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D5EB822590F1C00FACC37 /* ViewController.swift */; };
 		466D5EBB2259158500FACC37 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D5EBA2259158500FACC37 /* Day.swift */; };
 		466D5EBD2259162D00FACC37 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466D5EBC2259162D00FACC37 /* Track.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		462C45DC225D15FA00CDBCBD /* LiveTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LiveTableViewController.swift; path = "Star Wars Cellebration App/Controller/LiveTableViewController.swift"; sourceTree = SOURCE_ROOT; };
 		466D5EB822590F1C00FACC37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		466D5EBA2259158500FACC37 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		466D5EBC2259162D00FACC37 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				75D69E662257E73F00A1921B /* EventViewController.swift */,
 				75A53BEB225BD62E00EEF80C /* TableViewCells.swift */,
 				468D1A57225C14940089A6B2 /* BaseTabBarControllerTableViewController.swift */,
+				462C45DC225D15FA00CDBCBD /* LiveTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				75A53BEC225BD62E00EEF80C /* TableViewCells.swift in Sources */,
 				466D5EC12259170F00FACC37 /* Activity.swift in Sources */,
+				462C45DD225D15FA00CDBCBD /* LiveTableViewController.swift in Sources */,
 				468D1A58225C14940089A6B2 /* BaseTabBarControllerTableViewController.swift in Sources */,
 				466D5EBB2259158500FACC37 /* Day.swift in Sources */,
 				466D5EB922590F1C00FACC37 /* ViewController.swift in Sources */,
