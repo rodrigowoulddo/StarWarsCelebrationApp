@@ -26,8 +26,97 @@
                                     <segue destination="mJk-iQ-qee" kind="show" id="gur-gS-TPV"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bb8 background" translatesAutoresizingMaskIntoConstraints="NO" id="7fd-fn-ZUP">
+                                <rect key="frame" x="0.0" y="88" width="414" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="pjh-9g-n4K"/>
+                                    <constraint firstAttribute="width" constant="414" id="wal-eT-1Nb"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="9al-s0-ho1">
+                                <rect key="frame" x="28" y="142.5" width="358" height="116"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM6-BL-LUu">
+                                        <rect key="frame" x="0.0" y="0.0" width="110.5" height="116"/>
+                                        <state key="normal" backgroundImage="celebration stage"/>
+                                    </button>
+                                    <button opaque="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZV-oc-Cc8">
+                                        <rect key="frame" x="123.5" y="0.0" width="111" height="116"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
+                                        <state key="normal" backgroundImage="twinsuns stage"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gZy-dN-IX7">
+                                        <rect key="frame" x="247.5" y="0.0" width="110.5" height="116"/>
+                                        <state key="normal" backgroundImage="galaxy stage"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stages" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xV5-cW-fNb">
+                                <rect key="frame" x="28" y="106" width="76" height="27.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="1" green="0.9137254901960784" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iol-G5-RTk">
+                                <rect key="frame" x="0.0" y="278" width="414" height="41"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MCCORMICK PLACE | CHICAGO, IL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6tp-Xm-x1f">
+                                        <rect key="frame" x="187.5" y="13.5" width="198.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="localization_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Mln-i5-0pF">
+                                        <rect key="frame" x="167.5" y="10.5" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="3e8-b9-Ijf"/>
+                                            <constraint firstAttribute="width" constant="20" id="JeG-MT-4Jw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calendar_icon" translatesAutoresizingMaskIntoConstraints="NO" id="GMq-TY-bRB">
+                                        <rect key="frame" x="28" y="10.5" width="20" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="20" id="qSX-o1-Ayx"/>
+                                            <constraint firstAttribute="height" constant="20" id="sU2-vP-ouy"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="APRIL 12-14, 2019" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpM-GN-KlW">
+                                        <rect key="frame" x="53" y="13.5" width="103.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.91372549020000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="6tp-Xm-x1f" firstAttribute="centerY" secondItem="Iol-G5-RTk" secondAttribute="centerY" id="DnL-9A-eWX"/>
+                                    <constraint firstItem="GMq-TY-bRB" firstAttribute="centerY" secondItem="Iol-G5-RTk" secondAttribute="centerY" id="HPK-vW-xLR"/>
+                                    <constraint firstAttribute="height" constant="41" id="ObL-s6-mx3"/>
+                                    <constraint firstAttribute="trailing" secondItem="6tp-Xm-x1f" secondAttribute="trailing" constant="28" id="Ufw-dX-qpf"/>
+                                    <constraint firstItem="Mln-i5-0pF" firstAttribute="centerY" secondItem="Iol-G5-RTk" secondAttribute="centerY" id="Ysx-9d-STo"/>
+                                    <constraint firstItem="GMq-TY-bRB" firstAttribute="leading" secondItem="Iol-G5-RTk" secondAttribute="leading" constant="28" id="aHC-c6-Vox"/>
+                                    <constraint firstItem="MpM-GN-KlW" firstAttribute="leading" secondItem="GMq-TY-bRB" secondAttribute="trailing" constant="5" id="acR-EU-eH0"/>
+                                    <constraint firstItem="MpM-GN-KlW" firstAttribute="centerY" secondItem="Iol-G5-RTk" secondAttribute="centerY" id="ofV-kI-jkp"/>
+                                    <constraint firstItem="6tp-Xm-x1f" firstAttribute="leading" secondItem="Mln-i5-0pF" secondAttribute="trailing" id="ye4-FE-KiR"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9al-s0-ho1" secondAttribute="trailing" constant="28" id="3yG-gs-t2T"/>
+                            <constraint firstItem="7fd-fn-ZUP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4md-8A-PIB"/>
+                            <constraint firstItem="9al-s0-ho1" firstAttribute="top" secondItem="xV5-cW-fNb" secondAttribute="bottom" constant="9" id="6FS-zY-8LJ"/>
+                            <constraint firstItem="xV5-cW-fNb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="K7b-XV-YD3"/>
+                            <constraint firstItem="Iol-G5-RTk" firstAttribute="top" secondItem="7fd-fn-ZUP" secondAttribute="bottom" id="TAP-vr-ikV"/>
+                            <constraint firstItem="Iol-G5-RTk" firstAttribute="top" secondItem="7fd-fn-ZUP" secondAttribute="bottom" id="fZs-aa-G7A"/>
+                            <constraint firstItem="Iol-G5-RTk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="fhp-yq-aYw"/>
+                            <constraint firstItem="7fd-fn-ZUP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="kXr-6S-Kvz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7fd-fn-ZUP" secondAttribute="trailing" id="o2R-jH-Nbs"/>
+                            <constraint firstItem="7fd-fn-ZUP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pC8-hP-Gu6"/>
+                            <constraint firstItem="xV5-cW-fNb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="wtV-6G-jpc"/>
+                            <constraint firstItem="Iol-G5-RTk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xws-8I-yfw"/>
+                            <constraint firstItem="9al-s0-ho1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="yIV-xX-Mmx"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="p4C-Wr-NEg">
@@ -84,7 +173,7 @@
                                 <rect key="frame" x="0.0" y="183.5" width="414" height="629.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="main" rowHeight="202" id="zCX-3J-SZO" customClass="MainTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="main" rowHeight="202" id="zCX-3J-SZO" customClass="MainTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="202"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zCX-3J-SZO" id="kFN-hh-OgA">
@@ -164,7 +253,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="location" rowHeight="368" id="0U0-HT-ZPM" customClass="LocationTableVIewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="location" rowHeight="368" id="0U0-HT-ZPM" customClass="LocationTableVIewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="230" width="414" height="368"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="0U0-HT-ZPM" id="50R-KT-snK">
@@ -213,7 +302,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="description" rowHeight="312" id="xtX-Ng-fKL" customClass="DescriptionTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="description" rowHeight="312" id="xtX-Ng-fKL" customClass="DescriptionTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="598" width="414" height="312"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xtX-Ng-fKL" id="Byj-4B-gNT">
@@ -262,7 +351,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="related" rowHeight="248" id="jdq-Wn-Zul" customClass="RelatedTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="related" rowHeight="248" id="jdq-Wn-Zul" customClass="RelatedTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="910" width="414" height="248"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jdq-Wn-Zul" id="buc-gT-vE7">
@@ -414,8 +503,9 @@
         <scene sceneID="qgM-OP-log">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="27S-8t-5xc" customClass="NavigationController" customModule="Star_Wars_Cellebration_App" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Live" selectedImage="live icon" id="sRZ-Qg-dKQ"/>
+                    <tabBarItem key="tabBarItem" title="Live" image="live icon" id="Oai-AV-fgB"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="TkW-8p-wEI">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -431,7 +521,7 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="126.5625"/>
         </scene>
-        <!--View Controller-->
+        <!--Profile-->
         <scene sceneID="UGU-lu-xmC">
             <objects>
                 <viewController id="jA9-Hj-mkJ" sceneMemberID="viewController">
@@ -441,33 +531,126 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cbx-Rn-v6S"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Profile" image="profile icon" id="a9g-dw-6aG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ah-bt-CQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1042" y="786"/>
+            <point key="canvasLocation" x="1042" y="858"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Base Tab Bar Controller-->
         <scene sceneID="5gV-Vm-yMF">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OwW-G5-f1G" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OwW-G5-f1G" customClass="BaseTabBarController" customModule="Star_Wars_Cellebration_App" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LKa-Gb-RYt">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="tintColor">
+                                <color key="value" red="1" green="0.91372549020000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="unselectedItemTintColor">
+                                <color key="value" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="defaultIndex">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
-                        <segue destination="27S-8t-5xc" kind="relationship" relationship="viewControllers" id="06m-jN-kPR"/>
+                        <segue destination="Dzx-46-mRS" kind="relationship" relationship="viewControllers" id="UBc-Hq-3RO"/>
+                        <segue destination="Lwr-C9-hpD" kind="relationship" relationship="viewControllers" id="Isw-AZ-vz8"/>
+                        <segue destination="27S-8t-5xc" kind="relationship" relationship="viewControllers" id="Cve-Zc-kVX"/>
+                        <segue destination="Ovj-6k-t1s" kind="relationship" relationship="viewControllers" id="vPN-gK-3vn"/>
+                        <segue destination="jA9-Hj-mkJ" kind="relationship" relationship="viewControllers" id="DJ4-lO-OSM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9Q-sJ-UjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="131.8840579710145" y="126.5625"/>
+            <point key="canvasLocation" x="132" y="-22"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="NPc-kC-ZpM">
+            <objects>
+                <viewController id="Ovj-6k-t1s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="H2v-cy-vXk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4It-pb-L9h"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="4" title="Map" image="map icon" id="Iol-Qj-RMz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uNs-L4-P0g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="858"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="RNo-es-7wU">
+            <objects>
+                <viewController id="Dzx-46-mRS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hIS-di-5fJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4pl-pk-lOg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="news icon" id="mZg-jy-VuO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Q0-ZU-Qfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-717" y="127"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="zak-T2-Mqa">
+            <objects>
+                <viewController id="cOy-CT-8b2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mIW-vr-jXP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="pwK-LJ-XF5"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="map icon" id="FFV-3c-KBj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vTT-GS-Lpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="858"/>
+        </scene>
+        <!--Stages-->
+        <scene sceneID="WS6-nl-vWY">
+            <objects>
+                <viewController id="Lwr-C9-hpD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="x9T-Em-v8X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4hw-kP-uy2"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stages" image="stage icon" id="gL4-du-gmV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uPG-u2-Jgs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-716" y="858"/>
         </scene>
     </scenes>
     <resources>
+        <image name="bb8 background" width="138" height="64"/>
+        <image name="calendar_icon" width="7" height="7"/>
+        <image name="celebration stage" width="39" height="39"/>
         <image name="default event cover" width="99.5" height="149.5"/>
         <image name="default map" width="362.5" height="290"/>
         <image name="default related" width="131.5" height="142.5"/>
+        <image name="galaxy stage" width="39" height="39"/>
         <image name="live icon" width="25" height="30.5"/>
+        <image name="localization_icon" width="4.5" height="7"/>
+        <image name="map icon" width="29" height="29"/>
+        <image name="news icon" width="37" height="37"/>
+        <image name="profile icon" width="36" height="23.5"/>
+        <image name="stage icon" width="25" height="26.5"/>
+        <image name="twinsuns stage" width="116" height="116"/>
     </resources>
 </document>
