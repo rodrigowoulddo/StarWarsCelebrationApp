@@ -307,6 +307,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="e8H-lX-qzF" secondAttribute="bottom" id="dQT-qN-fIK"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="locationImageView" destination="JV9-8U-0AA" id="doI-oM-emr"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="description" rowHeight="312" id="xtX-Ng-fKL" customClass="DescriptionTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="598" width="414" height="312"/>
@@ -345,6 +348,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="368" id="HDY-Zf-SnH"/>
                                                         <constraint firstItem="Jhg-ZF-jDR" firstAttribute="top" secondItem="DQe-uu-3F2" secondAttribute="top" constant="35" id="V5N-rK-m91"/>
+                                                        <constraint firstAttribute="width" constant="414" id="vdr-9p-Z4t"/>
                                                         <constraint firstItem="Jhg-ZF-jDR" firstAttribute="centerX" secondItem="DQe-uu-3F2" secondAttribute="centerX" id="zVB-iQ-Wmd"/>
                                                     </constraints>
                                                 </view>
@@ -356,6 +360,9 @@
                                                 <constraint firstItem="DQe-uu-3F2" firstAttribute="top" secondItem="Byj-4B-gNT" secondAttribute="top" id="zxX-sA-uyq"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="descriptionLabel" destination="6Y6-OD-nwG" id="cjs-4k-GCa"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="related" rowHeight="248" id="jdq-Wn-Zul" customClass="RelatedTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="910" width="414" height="248"/>
@@ -465,6 +472,7 @@
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="width" constant="398" id="Be0-74-Tnr"/>
                                                         <constraint firstAttribute="height" constant="231.5" id="VoX-Qc-PTw"/>
                                                         <constraint firstItem="gj4-3B-34k" firstAttribute="centerY" secondItem="vSw-Sy-xaP" secondAttribute="centerY" id="rz2-Bc-dH2"/>
                                                         <constraint firstItem="gj4-3B-34k" firstAttribute="centerX" secondItem="vSw-Sy-xaP" secondAttribute="centerX" id="uix-lT-6qr"/>
@@ -478,6 +486,17 @@
                                                 <constraint firstItem="vSw-Sy-xaP" firstAttribute="top" secondItem="buc-gT-vE7" secondAttribute="topMargin" id="rW5-aa-68X"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="related1ImageView" destination="dpR-VJ-GCg" id="EMv-x9-BNC"/>
+                                            <outlet property="related1NameLabel" destination="1Tq-BC-XjN" id="8Ow-UT-48h"/>
+                                            <outlet property="related1TimeLabel" destination="BXj-Oa-NcP" id="gfX-b4-iCl"/>
+                                            <outlet property="related2ImageView" destination="meD-nJ-aSj" id="kqE-qN-X7a"/>
+                                            <outlet property="related2NameLabel" destination="dEm-3p-kbb" id="vBs-bo-vex"/>
+                                            <outlet property="related2TimeLabel" destination="WEZ-xk-g4f" id="jLN-AX-dHI"/>
+                                            <outlet property="related3ImageView" destination="fJ3-hM-jqk" id="j4b-EN-clm"/>
+                                            <outlet property="related3NameLabel" destination="zgj-fy-VS8" id="oTJ-QD-ufn"/>
+                                            <outlet property="related3TimeLabel" destination="BO8-3K-ycb" id="d6f-sT-ofV"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -498,6 +517,8 @@
                         <viewLayoutGuide key="safeArea" id="1kj-XY-KzG"/>
                     </view>
                     <connections>
+                        <outlet property="activityTimeLabel" destination="iop-d8-pdi" id="IdM-7q-AVe"/>
+                        <outlet property="activityTitleLabel" destination="295-UF-KAk" id="OEW-ec-jtc"/>
                         <outlet property="tableViewContents" destination="JHs-hf-mOT" id="STq-rk-QoA"/>
                     </connections>
                 </viewController>

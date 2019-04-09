@@ -9,6 +9,7 @@
 import Foundation
 
 struct Activity {
+    
     var id: Int?
     var title: String?
     var name: String?
@@ -21,4 +22,23 @@ struct Activity {
     var endTime: String?
     var image: String? // Asset Name
     var location: String? // Asset Name
+    var related: [RelatedActivity]?
+}
+
+struct RelatedActivity {
+    
+    var image: String?
+    var title: String?
+    var startTime: String?
+    var endTime: String?
+    
+    static func fromActivity(activity: Activity) -> RelatedActivity {
+        return RelatedActivity(
+            image: activity.image,
+            title: activity.title,
+            startTime: activity.startTime,
+            endTime: activity.endTime
+        )
+    }
+    
 }

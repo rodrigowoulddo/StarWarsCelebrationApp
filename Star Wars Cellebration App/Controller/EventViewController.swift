@@ -14,6 +14,8 @@ class  EventViewController: UIViewController {
     
     var activity: Activity = Activity()
     
+    @IBOutlet weak var activityTitleLabel: UILabel!
+    @IBOutlet weak var activityTimeLabel: UILabel!
     @IBOutlet weak var tableViewContents: UITableView!
     
     override func viewDidLoad() {
@@ -23,9 +25,20 @@ class  EventViewController: UIViewController {
         tableViewContents.dataSource = self
         
         //Default Activity setup
+        //todo - chenge to the value passes from previous screen
+        
+        let relatedActivity = RelatedActivity(image: "default related", title: "Default Related", startTime: "10AM", endTime: "15PM")
+        let related = [relatedActivity, relatedActivity, relatedActivity]
+        
         self.activity = Activity(
-            id: 0, name: "Default Activity", description: "The default activity description", stage: Stage.celebration, track: Track.rebel, day: Day.friday, session: 1, startTime: "10AM", endTime: "12AM", image: "default related", location: "default map"
-        )
+            id: 0, title: "Star Wars: Episode IX", name: "Default Activity", description: "The default activity description", stage: Stage.celebration, track: Track.rebel, day: Day.friday, session: 1, startTime: "10AM", endTime: "12PM", image: "default related", location: "default map", related: related)
+        
+        // set title and time on header
+        activityTitleLabel.text = activity.title
+        activityTimeLabel.text =
+            (self.activity.startTime ?? "00AM")
+            + " - " +
+            (self.activity.endTime ?? "00PM")
         
     }
     
@@ -41,22 +54,65 @@ extension EventViewController: UITableViewDataSource{
 //        var cell: UITableViewCell
         
         switch indexPath.row {
-        case 0:
+            
+        case 0: // MainTableViewCell
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "main") as! MainTableViewCell
             
+            cell.activityImage.image = UIImage(named: self.activity.image ?? "error image")
             cell.activityNameLabel.text = self.activity.name
-            cell.activityImage.image = UIImage(named: self.activity.image ?? "default event cover")
+            cell.activityTrackLabel.text = self.activity.track?.get()
+            cell.activityStageLabel.text = self.activity.stage?.get()
             
             return cell
-        case 1:
+            
+        case 1: //LocationTableVIewCell
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "location") as! LocationTableVIewCell
-        case 2:
+            cell.locationImageView.image = UIImage(named: self.activity.location ?? "error image")
+            
+            return cell
+            
+        case 2: //DescriptionTableViewCell
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "description") as! DescriptionTableViewCell
-        case 3:
+            cell.descriptionLabel.text = self.activity.description ?? "This event has no description."
+            
+            return cell
+            
+        case 3: //RelatedTableViewCell
+            
             let cell = tableView.dequeueReusableCell(withIdentifier: "related") as! RelatedTableViewCell
+            
+            // 1
+            cell.related1ImageView.image = UIImage(named: activity.related?[0].image ?? "error image")
+            cell.related1NameLabel.text = activity.related?[0].title
+            cell.related1TimeLabel.text =
+                (activity.related?[0].startTime ?? "00PM")
+                + " - " +
+                (activity.related?[0].endTime ?? "00PM")
+            
+            // 2
+            cell.related2ImageView.image = UIImage(named: activity.related?[1].image ?? "error image")
+            cell.related2NameLabel.text = activity.related?[1].title
+            cell.related2TimeLabel.text =
+                (activity.related?[1].startTime ?? "00PM")
+                + " - " +
+                (activity.related?[1].endTime ?? "00PM")
+            
+            // 3
+            cell.related3ImageView.image = UIImage(named: activity.related?[2].image ?? "error image")
+            cell.related3NameLabel.text = activity.related?[2].title
+            cell.related3TimeLabel.text =
+                (activity.related?[2].startTime ?? "00PM")
+                + " - " +
+                (activity.related?[2].endTime ?? "00PM")
+            
+            return cell
+            
         default:
             let cell = tableView.dequeueReusableCell(withIdentifier: "main") as! MainTableViewCell
-
+            return cell
         }
         
         return UITableViewCell()
