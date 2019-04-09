@@ -23,22 +23,18 @@ class  EventViewController: UIViewController {
         
         self.addNavBarImage()
         tableViewContents.dataSource = self
-        
-        //Default Activity setup
-        //todo - chenge to the value passes from previous screen
-        
-        let relatedActivity = RelatedActivity(image: "default related", title: "Default Related", startTime: "10AM", endTime: "15PM")
-        let related = [relatedActivity, relatedActivity, relatedActivity]
-        
-        self.activity = Activity(
-            id: 0, title: "Star Wars: Episode IX", name: "Default Activity", description: "The default activity description", stage: Stage.celebration, track: Track.rebel, day: Day.friday, session: 1, startTime: "10AM", endTime: "12PM", image: "default related", location: "default map", related: related)
+
+        ///////// CHANGE TO REAL DATA /////////////
+        let db = Database() //////////////////////
+        self.activity = db.activitiesFriday[0] //
+        ////////////////////////////////////////
         
         // set title and time on header
         activityTitleLabel.text = activity.title
         activityTimeLabel.text =
-            (self.activity.startTime ?? "00AM")
+            (self.activity.startTime ?? "00 PM")
             + " - " +
-            (self.activity.endTime ?? "00PM")
+            (self.activity.endTime ?? "00 PM")
         
     }
     
@@ -69,8 +65,9 @@ extension EventViewController: UITableViewDataSource{
         case 1: //LocationTableVIewCell
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "location") as! LocationTableVIewCell
-            cell.locationImageView.image = UIImage(named: self.activity.location ?? "error image")
-            
+            //cell.locationImageView.image = UIImage(named: self.activity.location ?? "error image") // to be used later
+            cell.locationImageView.image = UIImage(named: "default map")
+
             return cell
             
         case 2: //DescriptionTableViewCell

@@ -16,6 +16,7 @@
 		468D1A5A225C21580089A6B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468D1A59225C21580089A6B2 /* Assets.xcassets */; };
 		46D1E41F22591AF8005BD1E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1E41B22591AF8005BD1E2 /* Main.storyboard */; };
 		46D1E42022591AF8005BD1E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D1E41D22591AF8005BD1E2 /* LaunchScreen.storyboard */; };
+		7586A9A3225D28B4007B6619 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586A9A2225D28B4007B6619 /* Database.swift */; };
 		75A53BEC225BD62E00EEF80C /* TableViewCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A53BEB225BD62E00EEF80C /* TableViewCells.swift */; };
 		75D69E282257CAF700A1921B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E272257CAF700A1921B /* AppDelegate.swift */; };
 		75D69E3D2257CAF800A1921B /* Star_Wars_Cellebration_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D69E3C2257CAF800A1921B /* Star_Wars_Cellebration_AppTests.swift */; };
@@ -53,6 +54,7 @@
 		468D1A59225C21580089A6B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D1E41C22591AF8005BD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		46D1E41E22591AF8005BD1E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7586A9A2225D28B4007B6619 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		75A53BEB225BD62E00EEF80C /* TableViewCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCells.swift; sourceTree = "<group>"; };
 		75D69E242257CAF700A1921B /* Star Wars Cellebration App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Star Wars Cellebration App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D69E272257CAF700A1921B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				466D5EBC2259162D00FACC37 /* Track.swift */,
 				466D5EBE2259168400FACC37 /* Stage.swift */,
 				466D5EC02259170F00FACC37 /* Activity.swift */,
+				7586A9A2225D28B4007B6619 /* Database.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 				75D69E5E2257D77800A1921B /* NavigationController.swift in Sources */,
 				75D69E282257CAF700A1921B /* AppDelegate.swift in Sources */,
 				75D69E652257E6EA00A1921B /* MainViewController.swift in Sources */,
+				7586A9A3225D28B4007B6619 /* Database.swift in Sources */,
 				75D69E672257E73F00A1921B /* EventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,7 +525,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66X93R6BN6;
 				INFOPLIST_FILE = "$(SRCROOT)/Star Wars Cellebration App/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,7 +544,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 66X93R6BN6;
 				INFOPLIST_FILE = "$(SRCROOT)/Star Wars Cellebration App/Support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (

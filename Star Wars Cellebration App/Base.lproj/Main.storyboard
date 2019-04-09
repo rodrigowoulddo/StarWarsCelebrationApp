@@ -279,7 +279,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default map" translatesAutoresizingMaskIntoConstraints="NO" id="JV9-8U-0AA">
-                                                                    <rect key="frame" x="0.0" y="25" width="362.00000000000006" height="290"/>
+                                                                    <rect key="frame" x="0.0" y="25" width="362" height="290"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="362" id="IS1-iC-0bS"/>
                                                                         <constraint firstAttribute="height" constant="290" id="qPk-ED-Fv1"/>
