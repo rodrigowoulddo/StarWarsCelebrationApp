@@ -12,6 +12,8 @@ import UIKit
 
 class  EventViewController: UIViewController {
     
+    var activity: Activity = Activity()
+    
     @IBOutlet weak var tableViewContents: UITableView!
     
     override func viewDidLoad() {
@@ -19,6 +21,11 @@ class  EventViewController: UIViewController {
         
         self.addNavBarImage()
         tableViewContents.dataSource = self
+        
+        //Default Activity setup
+        self.activity = Activity(
+            id: 0, name: "Default Activity", description: "The default activity description", stage: Stage.celebration, track: Track.rebel, day: Day.friday, session: 1, startTime: "10AM", endTime: "12AM", image: "default related", location: "default map"
+        )
         
     }
     
@@ -31,23 +38,28 @@ extension EventViewController: UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        var cell: UITableViewCell
+//        var cell: UITableViewCell
         
         switch indexPath.row {
         case 0:
-            cell = tableView.dequeueReusableCell(withIdentifier: "main") as! MainTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "main") as! MainTableViewCell
+            
+            cell.activityNameLabel.text = self.activity.name
+            cell.activityImage.image = UIImage(named: self.activity.image ?? "default event cover")
+            
+            return cell
         case 1:
-            cell = tableView.dequeueReusableCell(withIdentifier: "location") as! LocationTableVIewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "location") as! LocationTableVIewCell
         case 2:
-            cell = tableView.dequeueReusableCell(withIdentifier: "description") as! DescriptionTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "description") as! DescriptionTableViewCell
         case 3:
-            cell = tableView.dequeueReusableCell(withIdentifier: "related") as! RelatedTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "related") as! RelatedTableViewCell
         default:
-            cell = tableView.dequeueReusableCell(withIdentifier: "main") as! MainTableViewCell
+            let cell = tableView.dequeueReusableCell(withIdentifier: "main") as! MainTableViewCell
 
         }
         
-        return cell
+        return UITableViewCell()
     }
     
     

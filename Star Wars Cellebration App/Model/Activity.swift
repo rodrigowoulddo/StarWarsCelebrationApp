@@ -9,16 +9,15 @@
 import Foundation
 
 struct Activity {
-    var id: Int
-    var name: String
-    var description: String
-    var stage: Stage // enum
-    var track: Track // enum
-    var day: Day // enum
-    var session: Int
-    var startTime: String
-    var endTime: String
-    var image: String // Asset Name
-    var location: String // Asset Name
-    
+    var id: Int?
+    var name: String?
+    var description: String?
+    var stage: Stage? // enum
+    var track: Track? // enum
+    var day: Day? // enum
+    var session: Int?
+    var startTime: String?
+    var endTime: String?
+    var image: String? // Asset Name
+    var location: String? // Asset Name
 }

@@ -97,7 +97,7 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="Fla-y3-yUp">
                                                             <rect key="frame" x="28" y="30.5" width="358" height="141"/>
                                                             <subviews>
-                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default event cover" translatesAutoresizingMaskIntoConstraints="NO" id="7QT-1p-gBd">
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="default event cover" translatesAutoresizingMaskIntoConstraints="NO" id="7QT-1p-gBd">
                                                                     <rect key="frame" x="0.0" y="0.0" width="99" height="141"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="99" id="WA5-Sm-yZa"/>
@@ -163,6 +163,12 @@
                                                 <constraint firstAttribute="bottom" secondItem="rA8-n0-F7s" secondAttribute="bottom" id="j22-I9-Xgl"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="activityImage" destination="7QT-1p-gBd" id="Z5P-nG-lNW"/>
+                                            <outlet property="activityNameLabel" destination="1AW-83-iPK" id="D2i-a6-USX"/>
+                                            <outlet property="activityStageLabel" destination="WLA-3y-dmV" id="Owk-TQ-4vv"/>
+                                            <outlet property="activityTrackLabel" destination="Rtq-24-Jwa" id="RWU-hr-9SY"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="location" rowHeight="368" id="0U0-HT-ZPM" customClass="LocationTableVIewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="230" width="414" height="368"/>
@@ -452,6 +458,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OwW-G5-f1G" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LKa-Gb-RYt">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
