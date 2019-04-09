@@ -1,7 +1,348 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workspace
    version = "1.0">
+   <Group
+      location = "group:../Star Wars Cellebration App/Assets.xcassets"
+      name = "Assets.xcassets">
+      <Group
+         location = "group:launch logo.imageset"
+         name = "launch logo.imageset">
+         <FileRef
+            location = "group:SWCC19-Logo-RGB@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:SWCC19-Logo-RGB@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:SWCC19-Logo-RGB.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:profile icon.imageset"
+         name = "profile icon.imageset">
+         <FileRef
+            location = "group:profile@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:profile@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:profile.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:galaxy stage.imageset"
+         name = "galaxy stage.imageset">
+         <FileRef
+            location = "group:galaxy_bg@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:galaxy_bg@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:galaxy_bg.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:default map.imageset"
+         name = "default map.imageset">
+         <FileRef
+            location = "group:Screen Shot 2019-03-31 at 22.37.23@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Screen Shot 2019-03-31 at 22.37.23.png">
+         </FileRef>
+         <FileRef
+            location = "group:Screen Shot 2019-03-31 at 22.37.23@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:location icon.imageset"
+         name = "location icon.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:twinsuns stage.imageset"
+         name = "twinsuns stage.imageset">
+         <FileRef
+            location = "group:twins_suns_bg.png">
+         </FileRef>
+         <FileRef
+            location = "group:twins_suns_bg@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:twins_suns_bg@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:localization_icon.imageset"
+         name = "localization_icon.imageset">
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:localization_icon.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:AppIcon.appiconset"
+         name = "AppIcon.appiconset">
+         <FileRef
+            location = "group:Icon.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_40pt.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_20pt@2x-1.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_20pt@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_40pt@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_40pt@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_40pt@2x-1.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_20pt@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_20pt.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_29pt@2x-1.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_76pt.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:icon_76pt@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_83.5@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_29pt@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_60pt@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_60pt@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_29pt.png">
+         </FileRef>
+         <FileRef
+            location = "group:icon_29pt@2x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:celebration stage.imageset"
+         name = "celebration stage.imageset">
+         <FileRef
+            location = "group:celebration_bg@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:celebration_bg.png">
+         </FileRef>
+         <FileRef
+            location = "group:celebration_bg@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:star wars celebration logo.imageset"
+         name = "star wars celebration logo.imageset">
+         <FileRef
+            location = "group:star_wars_app_logo.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:star_wars_app_logo@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:star_wars_app_logo@3x.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:default event cover.imageset"
+         name = "default event cover.imageset">
+         <FileRef
+            location = "group:Image 14.png">
+         </FileRef>
+         <FileRef
+            location = "group:Image 14@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Image 14@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Contents.json">
+      </FileRef>
+      <Group
+         location = "group:stage icon.imageset"
+         name = "stage icon.imageset">
+         <FileRef
+            location = "group:stages@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:stages@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:stages.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:bell icon.imageset"
+         name = "bell icon.imageset">
+         <FileRef
+            location = "group:noun_Bell_2148614@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:noun_Bell_2148614@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:noun_Bell_2148614.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:news icon.imageset"
+         name = "news icon.imageset">
+         <FileRef
+            location = "group:news.png">
+         </FileRef>
+         <FileRef
+            location = "group:news@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:news@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:bb8 background.imageset"
+         name = "bb8 background.imageset">
+         <FileRef
+            location = "group:bb_08_bg@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:bb_08_bg@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:bb_08_bg.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:launch background.imageset"
+         name = "launch background.imageset">
+         <FileRef
+            location = "group:Screen Shot 2019-04-01 at 00.11.59@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Screen Shot 2019-04-01 at 00.11.59@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Screen Shot 2019-04-01 at 00.11.59.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:map icon.imageset"
+         name = "map icon.imageset">
+         <FileRef
+            location = "group:map.png">
+         </FileRef>
+         <FileRef
+            location = "group:map@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:map@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:live icon.imageset"
+         name = "live icon.imageset">
+         <FileRef
+            location = "group:live@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:live@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:live.png">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:default related.imageset"
+         name = "default related.imageset">
+         <FileRef
+            location = "group:Image 15.png">
+         </FileRef>
+         <FileRef
+            location = "group:Image 15@3x.png">
+         </FileRef>
+         <FileRef
+            location = "group:Contents.json">
+         </FileRef>
+         <FileRef
+            location = "group:Image 15@2x.png">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
-      location = "self:Star Wars Cellebration App.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
