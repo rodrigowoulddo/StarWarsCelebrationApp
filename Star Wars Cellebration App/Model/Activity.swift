@@ -10,6 +10,7 @@ import Foundation
 
 struct Activity {
     var id: Int?
+    var title: String?
     var name: String?
     var description: String?
     var stage: Stage? // enum
