@@ -62,3 +62,17 @@ class RelatedTableViewCell: UITableViewCell{
         // Initialization code
     }
 }
+
+class SpotlightTableViewCell: UITableViewCell {
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+}
+
+class ActivityTableViewCell: UITableViewCell {
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+}
