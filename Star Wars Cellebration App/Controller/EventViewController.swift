@@ -112,7 +112,7 @@ extension EventViewController: UITableViewDataSource{
             return cell
         }
         
-        return UITableViewCell()
+//        return UITableViewCell()
     }
     
     

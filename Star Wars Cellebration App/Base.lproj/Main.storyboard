@@ -96,7 +96,7 @@
                                 <rect key="frame" x="0.0" y="339" width="414" height="474"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="spotlightCell" rowHeight="240" id="3oe-E1-VNr" customClass="SpotlightTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="spotlightCell" rowHeight="240" id="3oe-E1-VNr" customClass="SpotlightTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="240"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3oe-E1-VNr" id="4I5-1V-OAz">
@@ -261,7 +261,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="activityCell" rowHeight="200" id="7mB-KK-dok" customClass="ActivityTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="activityCell" rowHeight="200" id="7mB-KK-dok" customClass="ActivityTableViewCell" customModule="Star_Wars_Cellebration_App" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="268" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7mB-KK-dok" id="0NG-2b-ohv">
@@ -385,8 +385,26 @@
                                                 <constraint firstItem="h7g-Xf-XAh" firstAttribute="leading" secondItem="0NG-2b-ohv" secondAttribute="leading" id="rOW-Yv-bLX"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="coverImageView" destination="H6f-GP-v7a" id="3nv-tq-FS3"/>
+                                            <outlet property="nameLabel" destination="beK-qB-1ka" id="3Ie-LB-r6N"/>
+                                            <outlet property="sideBarView" destination="3lv-8X-bWf" id="3kw-TP-oCf"/>
+                                            <outlet property="stageAndSessionLabel" destination="mVc-DA-Dqs" id="ZvP-Sh-bMb"/>
+                                            <outlet property="timeLabel" destination="e4i-rJ-J7l" id="COa-pa-y4m"/>
+                                            <outlet property="titleLabel" destination="Wlq-kV-YpK" id="gWl-Ld-mWc"/>
+                                            <outlet property="trackLabel" destination="ltC-7K-efu" id="8WS-aR-2Ch"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="coverImageView" destination="H6f-GP-v7a" id="Or0-oI-Bwq"/>
+                                    <outlet property="nameLabel" destination="beK-qB-1ka" id="Ga1-Kn-ONo"/>
+                                    <outlet property="sideBarView" destination="3lv-8X-bWf" id="HKZ-Nr-QOE"/>
+                                    <outlet property="stageAndSessionLabel" destination="mVc-DA-Dqs" id="RyB-69-c0O"/>
+                                    <outlet property="timeLabel" destination="e4i-rJ-J7l" id="GWf-1f-4L2"/>
+                                    <outlet property="titleLabel" destination="Wlq-kV-YpK" id="9Vm-Rc-aJN"/>
+                                    <outlet property="trackLabel" destination="ltC-7K-efu" id="vgn-i3-Ved"/>
+                                </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gcV-a9-jwG">
                                 <rect key="frame" x="199" y="97" width="126" height="50"/>

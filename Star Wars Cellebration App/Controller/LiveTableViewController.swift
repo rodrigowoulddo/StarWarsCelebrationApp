@@ -11,6 +11,9 @@ import UIKit
 class LiveViewController: UIViewController {
 
     @IBOutlet weak var activityTableView: UITableView!
+    
+    let db: Database = Database()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,7 +27,7 @@ class LiveViewController: UIViewController {
 
 extension LiveViewController: UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
+        return self.db.activitiesFriday.count + 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -32,7 +35,14 @@ extension LiveViewController: UITableViewDataSource, UITableViewDelegate{
         if indexPath.row == 0 {
             return tableView.dequeueReusableCell(withIdentifier: "spotlightCell") as! SpotlightTableViewCell
         }
-        return tableView.dequeueReusableCell(withIdentifier: "activityCell") as! ActivityTableViewCell
+        
+        var activityCell = tableView.dequeueReusableCell(withIdentifier: "activityCell") as! ActivityTableViewCell
+        
+        let activity = db.activitiesFriday[indexPath.row-1]
+        
+        // todo data bindings
+        
+        return activityCell
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -53,5 +63,15 @@ extension LiveViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 33
+    }
+    
+    private func makeColor(rgbAndAlpha: [Int]) -> UIColor {
+        return
+            UIColor(
+                red: CGFloat(rgbAndAlpha[0]/255),
+                green: CGFloat (rgbAndAlpha[1]/255),
+                blue: CGFloat(rgbAndAlpha[2]/255),
+                alpha:  CGFloat(rgbAndAlpha[3]/255)
+        )
     }
 }

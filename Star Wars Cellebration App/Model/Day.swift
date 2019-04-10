@@ -24,4 +24,16 @@ enum Day {
         }
     }
     
+    func getColorRGBArray() -> [Int]{
+        switch self {
+        case .friday:
+            return [79,188,182,1]
+        case .saturday:
+            return [229, 174, 9, 1]
+        case .sunday:
+            return [210, 27, 8, 1]
+        }
+    }
+    
+    
 }

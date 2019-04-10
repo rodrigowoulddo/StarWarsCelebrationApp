@@ -64,6 +64,10 @@ class RelatedTableViewCell: UITableViewCell{
 }
 
 class SpotlightTableViewCell: UITableViewCell {
+    
+
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -71,6 +75,15 @@ class SpotlightTableViewCell: UITableViewCell {
 }
 
 class ActivityTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var sideBarView: UIView!
+    @IBOutlet weak var coverImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var stageAndSessionLabel: UILabel!
+    @IBOutlet weak var trackLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
