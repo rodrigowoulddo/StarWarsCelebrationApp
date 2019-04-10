@@ -23,11 +23,6 @@ class  EventViewController: UIViewController {
         
         self.addNavBarImage()
         tableViewContents.dataSource = self
-
-        ///////// CHANGE TO REAL DATA /////////////
-        let db = Database() //////////////////////
-        self.activity = db.activitiesFriday[0] //
-        ////////////////////////////////////////
         
         // set title and time on header
         activityTitleLabel.text = activity.title

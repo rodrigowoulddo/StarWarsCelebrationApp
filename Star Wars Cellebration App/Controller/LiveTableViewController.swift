@@ -36,11 +36,26 @@ extension LiveViewController: UITableViewDataSource, UITableViewDelegate{
             return tableView.dequeueReusableCell(withIdentifier: "spotlightCell") as! SpotlightTableViewCell
         }
         
-        var activityCell = tableView.dequeueReusableCell(withIdentifier: "activityCell") as! ActivityTableViewCell
+        let activityCell = tableView.dequeueReusableCell(withIdentifier: "activityCell") as! ActivityTableViewCell
         
         let activity = db.activitiesFriday[indexPath.row-1]
         
-        // todo data bindings
+        print("construindo celula " + (activity.title ?? ""))
+        print(activity.day!.getColorRGBArray())
+        print(makeColor(rgbAndAlpha: activity.day!.getColorRGBArray()))
+
+        activityCell.sideBarView.backgroundColor = makeColor(rgbAndAlpha: activity.day?.getColorRGBArray() ?? [0,0,0,1])
+        activityCell.sidebarColor = makeColor(rgbAndAlpha: activity.day?.getColorRGBArray() ?? [0,0,0,1])
+        activityCell.coverImageView.image = UIImage(named: activity.image ?? "error image")
+        activityCell.titleLabel.text = activity.title
+        activityCell.timeLabel.text = (activity.startTime ?? "00AM") + " - " + (activity.endTime ?? "00PM")
+        activityCell.nameLabel.text = activity.name
+        
+        let stageString = "Stage " + (activity.stage?.get() ?? "none")
+        let sessionString = "Session " + (String(activity.session ?? 0))
+        
+        activityCell.stageAndSessionLabel.text = stageString + " - " + sessionString
+        activityCell.trackLabel.text = (activity.track?.get() ?? "0")
         
         return activityCell
     }
@@ -63,6 +78,21 @@ extension LiveViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 33
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let activityClicked = db.activitiesFriday[indexPath.row-1]
+        
+        performSegue(withIdentifier: "eventSegue", sender: activityClicked)
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let act = sender as? Activity {
+            if let eventVC = segue.destination as? EventViewController{
+                eventVC.activity = act
+            }
+        }
     }
     
     private func makeColor(rgbAndAlpha: [Int]) -> UIColor {

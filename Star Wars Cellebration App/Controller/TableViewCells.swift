@@ -74,7 +74,7 @@ class SpotlightTableViewCell: UITableViewCell {
     }
 }
 
-class ActivityTableViewCell: UITableViewCell {
+public class ActivityTableViewCell: UITableViewCell {
     
     @IBOutlet weak var sideBarView: UIView!
     @IBOutlet weak var coverImageView: UIImageView!
@@ -84,8 +84,13 @@ class ActivityTableViewCell: UITableViewCell {
     @IBOutlet weak var stageAndSessionLabel: UILabel!
     @IBOutlet weak var trackLabel: UILabel!
     
-    override func awakeFromNib() {
+    public var sidebarColor: UIColor = UIColor.blue
+    
+    override public func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        sideBarView.backgroundColor = sidebarColor
+        
     }
 }
