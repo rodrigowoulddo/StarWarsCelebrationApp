@@ -132,7 +132,7 @@
                                                                             <color key="textColor" red="1" green="0.9137254901960784" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pqd-8r-gsZ">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="billy photo" translatesAutoresizingMaskIntoConstraints="NO" id="Pqd-8r-gsZ">
                                                                             <rect key="frame" x="23" y="18" width="93" height="93"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         </imageView>
@@ -144,21 +144,21 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LXu-9B-exK">
                                                                     <rect key="frame" x="138" y="0.0" width="138" height="167"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lando Carissian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBK-yr-19W">
-                                                                            <rect key="frame" x="24" y="134" width="90" height="15"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C3P0 in Star Wars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mBK-yr-19W">
+                                                                            <rect key="frame" x="18" y="134" width="103" height="15"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BILLY DE WILLIAMS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVw-nI-64A">
-                                                                            <rect key="frame" x="13" y="119" width="113" height="15"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ANTHONY DANIELS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cVw-nI-64A">
+                                                                            <rect key="frame" x="13" y="119" width="114" height="15"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                             <color key="textColor" red="1" green="0.91372549020000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pZ7-lE-rcq">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="anthony photo" translatesAutoresizingMaskIntoConstraints="NO" id="pZ7-lE-rcq">
                                                                             <rect key="frame" x="23" y="18" width="93" height="93"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         </imageView>
@@ -170,21 +170,21 @@
                                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L51-fI-puW">
                                                                     <rect key="frame" x="276" y="0.0" width="138" height="167"/>
                                                                     <subviews>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lando Carissian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd2-q4-fdA">
-                                                                            <rect key="frame" x="24" y="134" width="90" height="15"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="K-2SO in Rogue One" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vd2-q4-fdA">
+                                                                            <rect key="frame" x="11" y="134" width="117" height="15"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BILLY DE WILLIAMS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-j5-veR">
-                                                                            <rect key="frame" x="13" y="119" width="113" height="15"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ALAN TUDYK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSL-j5-veR">
+                                                                            <rect key="frame" x="32" y="119" width="76" height="15"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                                             <color key="textColor" red="1" green="0.91372549020000005" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-WH-ItA">
+                                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alan photo" translatesAutoresizingMaskIntoConstraints="NO" id="HMQ-WH-ItA">
                                                                             <rect key="frame" x="23" y="18" width="93" height="93"/>
                                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                         </imageView>
@@ -456,13 +456,22 @@
                                         <color key="textColor" red="1" green="0.91372549020000005" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bell icon" translatesAutoresizingMaskIntoConstraints="NO" id="imn-tp-63c">
+                                        <rect key="frame" x="379" y="54" width="15" height="22"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="22" id="2lm-ga-C9y"/>
+                                            <constraint firstAttribute="width" constant="15" id="o5D-KG-Ooc"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.17254901959999999" green="0.17254901959999999" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="295-UF-KAk" firstAttribute="top" secondItem="cZZ-Ip-tao" secondAttribute="top" constant="13" id="GBA-p2-eT8"/>
                                     <constraint firstAttribute="height" constant="91" id="Kqf-oz-pDz"/>
                                     <constraint firstItem="iop-d8-pdi" firstAttribute="leading" secondItem="cZZ-Ip-tao" secondAttribute="leading" constant="28" id="LJo-6q-Lmt"/>
+                                    <constraint firstAttribute="trailing" secondItem="imn-tp-63c" secondAttribute="trailing" constant="20" id="aWP-nj-puk"/>
                                     <constraint firstItem="295-UF-KAk" firstAttribute="leading" secondItem="cZZ-Ip-tao" secondAttribute="leading" constant="28" id="agO-6P-G3o"/>
+                                    <constraint firstAttribute="bottom" secondItem="imn-tp-63c" secondAttribute="bottom" constant="15" id="kme-QM-qP5"/>
                                     <constraint firstItem="iop-d8-pdi" firstAttribute="top" secondItem="295-UF-KAk" secondAttribute="bottom" constant="2" id="nUY-Ta-TkD"/>
                                     <constraint firstAttribute="trailing" secondItem="295-UF-KAk" secondAttribute="trailing" constant="28" id="vWb-RE-5v5"/>
                                 </constraints>
@@ -970,7 +979,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="alan photo" width="31" height="31"/>
+        <image name="anthony photo" width="31" height="31"/>
         <image name="bb8 background" width="138" height="64"/>
+        <image name="bell icon" width="15.5" height="22.5"/>
+        <image name="billy photo" width="31" height="31"/>
         <image name="calendar_icon" width="7" height="7"/>
         <image name="celebration stage" width="39" height="39"/>
         <image name="default event cover" width="99.5" height="149.5"/>
